@@ -1,0 +1,50 @@
+.orderItem {
+  background: var(--bg-primary);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-color);
+  margin-top: 1rem;
+}
+
+.orderItem:last-child {
+  border-bottom: none;
+}
+
+.orderInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.amount {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.status {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.pending {
+  background: #ffd700;
+  color: #000;
+}
+
+.processing {
+  background: var(--accent-color);
+  color: white;
+}
+
+.completed {
+  background: var(--success-color);
+  color: white;
+}
+
+.orderDate {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
